@@ -1,0 +1,366 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #010001;
+    height: 70px;
+    align-items: center;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    height: 60px;
+
+
+}
+
+.hamburger {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 20px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+
+}
+
+.a:visited {
+    color: RGB(255, 255, 255);
+}
+
+.a:active {
+    color: RGB(255, 255, 255);
+}
+
+
+.texto-japon {
+    display: grid;
+    justify-content: center;
+    width: 30%;
+    margin-left: 10%;
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.Hoteles {
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: RGB(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.Alquileres {
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: RGB(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.CQH {
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: RGB(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.Restos {
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: RGB(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.Foro {
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: RGB(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.Vuelos {
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: RGB(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.Cruceros {
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: RGB(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.Mas {
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: RGB(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.texto-japon {
+    width: 50%;
+    margin-left: 10%;
+    font-size: medium;
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+footer {
+    background-color: RGB(217, 0, 0);
+    padding: 10px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: RGB(0, 60, 113)
+    
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-texto {
+    flex-basis: 60%;
+}
+
+.footer-texto p:first-child {
+    font-size: 30px;
+    color: RGB(255, 255, 255)
+}
+
+.footer-texto p:nth-child(2) {
+    font-size: 25px;
+    color: RGB(255, 255, 255);
+}
+
+.footer-texto p:last-child {
+    font-size: 10px;
+    color: RGB(255, 255, 255);
+}
+
+.container-galeria {
+    display: grid;
+    grid-template-columns: repeat(6, 300px);
+    grid-template-rows: repeat(6, 300px);
+}
+
+.Shonen-img {
+    grid-column: 1/4;
+    height: 150%;
+    margin: 10px;
+}
+
+.texto-shonen {
+    grid-row: 1;
+    grid-column: 4;
+    text-align: left;
+    font-size: 76%;
+    color: #010001;
+    font-family: 'Lato', sans-serif;
+}
+
+.Seinen-img {
+    grid-row: 3;
+    grid-column: 1;
+    height: 150%;
+    margin: 10px;
+}
+
+.texto-seinen {
+    grid-row: 3;
+    grid-column: 4;
+    font-size: 90%;
+    color: #010001;
+    font-family: 'Lato', sans-serif;
+}
+
+.Shojo-img {
+    grid-row: 5;
+    grid-column: 1;
+    margin: 10px;
+    height: 150%;
+}
+
+.texto-shojo {
+    grid-row: 5;
+    grid-column: 4;
+    color: #010001;
+    font-family: 'Lato', sans-serif;
+}
+
+.comida {
+    margin: 10px;
+    color: #010001;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-comida {
+    margin: 10px;
+    gap: 10px;
+}
+
+
+.Texto-turismo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.Mapa {
+    display: grid;
+    grid-template-columns: repeat(2, 46%);
+    grid-template-rows: repeat(2, 46%);
+    grid-row: 1;
+    grid-column: 1;
+    margin: 10px;
+    width: 100%;
+}
+
+.texto-mapa {
+    grid-row: 1;
+    grid-column: 2;
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.descripcion {
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.formulario {
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+.Enviar {
+    outline: none;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: RGB(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    color: #010001;
+}
+
+@media screen and (max-width:388px) {
+    nav ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        height: 10%;
+    }
+
+    .cabecera {
+        height: 10vh;
+    }
+
+    header img {
+        height: 70%;
+    }
+
+    .botones {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .texto-japon {
+        text-align: center;
+        margin-left: 25%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .container-galeria {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 60vh);
+    }
+
+    .Shonen-img {
+        width: 100%;
+        height: 90%;
+        grid-column: 1;
+        grid-row: 1;
+
+    }
+
+    .texto-shonen {
+        grid-column: 1;
+        grid-row: 2;
+        height: 1fr;
+        width: 1fr;
+        margin-left: 10px;
+    }
+
+    .Seinen-img {
+        width: 100%;
+        height: 90%;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .texto-seinen {
+        grid-column: 1;
+        grid-row: 4;
+        height: 1fr;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .Shojo-img{   width: 100%;
+        height: 90%;
+        grid-column: 1;
+        grid-row: 5;}
+    .texto-shojo{ grid-column: 1;
+        grid-row: 6;
+        height: 1fr;
+        width: 90%;
+        margin-left: 10px;}
+    }
